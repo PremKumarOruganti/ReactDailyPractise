@@ -1,0 +1,22 @@
+.cocktail-data{
+  display: grid;
+  grid-template-columns:1fr;
+  gap:1rem
+  /* display: flex;
+  flex-direction:column */
+}
+.cocktail-data li img{
+  max-height: 250px;
+  width:100%;
+  object-fit: cover;
+  /* gap: 1fr */
+}
+.cocktail-data li{
+  list-style-type: none;
+}
+ @media screen and (min-width:769px){
+  .cocktail-data{
+    gap:2rem;
+    grid-template-columns: 1fr 1fr 1fr
+  }
+ }

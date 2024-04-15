@@ -1,0 +1,16 @@
+.cocktail-data{
+  display: grid;
+  grid-template-columns:1fr
+  /* display: flex;
+  flex-direction:column */
+}
+.cocktail-data li img{
+  width:100%;
+  gap: 1fr
+}
+ @media screen and (min-width:769px){
+  .cocktail-data{
+    gap:2rem;
+    grid-template-columns: 1fr 1fr 1fr
+  }
+ }
